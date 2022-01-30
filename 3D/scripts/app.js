@@ -1,5 +1,4 @@
 import { OrbitControls } from "./OrbitControls.js";
-import { OBJLoader } from "./OBJLoader.js"
 
 let container, camera, renderer, scene, floor, controls;
 

@@ -10,7 +10,7 @@
     <link href="assets/favicon.png" rel="icon" type="image/png"/>
     <title>Landing</title>
 </head>
-<body class="bg-light">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -159,8 +159,9 @@
             $("div.row").toggleClass("text-white");
             $("div.card-body").toggleClass("bg-dark");
             $("div.card-footer").toggleClass("bg-secondary");
-            $(".btn-outline-dark").toggleClass("btn-light");
-            $(".bg-light").toggleClass("bg-secondary bg-gradient");
+            $(".btn-outline-dark").toggleClass("text-light btn-dark");
+
+            $("body").toggleClass("bg-secondary bg-gradient");
             $("label").toggleClass("text-dark");
 
 

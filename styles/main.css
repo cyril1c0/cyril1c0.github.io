@@ -1,0 +1,6 @@
+.scene{
+    position: fixed;
+}
+.left-me{
+    align-items: flex-start !important;
+}

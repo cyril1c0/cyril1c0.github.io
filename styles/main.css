@@ -1,0 +1,20 @@
+.animated1 {
+    animation: fade 2000ms ease-in infinite forwards;
+}
+
+.animated2 { 
+    animation: fade 3000ms ease-in;
+}
+
+.dark-custom{
+    background-color: #1a1e21 !important;
+}
+
+.light-custom{
+    background-color: #292e33 !important;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

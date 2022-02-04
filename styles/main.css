@@ -1,22 +1,20 @@
 .animated1 {
-    animation: fade 2000ms ease-in;
+    animation: fade 2000ms ease-in infinite forwards;
 }
 
 .animated2 { 
-    animation: fade 3500ms ease-in;
+    animation: fade 3000ms ease-in;
 }
 
-
-.animated-card:hover {
-    animation: fade 1000ms ease-in 1;
+.dark-custom{
+    background-color: #1a1e21 !important;
 }
 
+.light-custom{
+    background-color: #292e33 !important;
+}
 
-@keyframes fade{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+@keyframes fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

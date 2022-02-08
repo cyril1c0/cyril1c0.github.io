@@ -1,5 +1,5 @@
 .animated1 {
-    animation: fade 2000ms ease-in infinite forwards;
+    animation: fade 2000ms ease-in;
 }
 
 .animated2 { 
